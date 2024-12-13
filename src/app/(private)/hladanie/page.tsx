@@ -1,4 +1,4 @@
-//src/app/hladanie/page.tsx
+//src/app/privat/hladanie/page.tsx
 
 
 import Typography from '@mui/material/Typography';

@@ -1,4 +1,4 @@
-//src/app/gdpr/page.tsx
+//src/app/public/gdpr/page.tsx
 
 
 import Typography from '@mui/material/Typography';

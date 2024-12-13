@@ -21,9 +21,10 @@ export default function NavBot() {
   // Navigation items based on auth status
   const navItemsUnauthenticated = [
     { label: 'Domov', icon: <HomeIcon />, path: '/' },
-    { label: 'Prispevky', icon: <PostAddIcon />, path: '/prispevok' },
-    { label: 'Prihlásiť', icon: <LoginIcon />, path: '/auth/prihlasenie' },
+    { label: 'O Nas', icon: <PostAddIcon />, path: '/o-nas' },
     { label: 'Registrovať', icon: <HowToRegIcon />, path: '/auth/registracia' },
+    { label: 'Prihlásiť', icon: <LoginIcon />, path: '/auth/prihlasenie' },
+    
   ];
 
   const navItemsAuthenticated = [
@@ -59,7 +60,8 @@ export default function NavBot() {
         left: 0,
         right: 0,
         backgroundColor: '#fff',
-        boxShadow: '0 -2px 10px rgba(0, 0, 0, 0.1)',
+        color: 'd60f0f',
+        boxShadow: '0 -2px 10px rgba(8, 0, 0, 0.1)',
       }}
     >
       {(session ? navItemsAuthenticated : navItemsUnauthenticated).map((item, index) => (

@@ -1,4 +1,4 @@
-//src/app/podmienky/page.tsx
+//src/app/public/podmienky/page.tsx
 
 
 import Typography from '@mui/material/Typography';

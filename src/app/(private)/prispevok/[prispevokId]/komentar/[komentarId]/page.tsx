@@ -1,5 +1,5 @@
 
-// src/app/prispevok/[prispevokId]/komentar/[komentarId]/page.tsx
+// src/app/privat/prispevok/[prispevokId]/komentar/[komentarId]/page.tsx
 
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
